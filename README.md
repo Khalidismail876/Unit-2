@@ -32,6 +32,8 @@ Development
 
 This code will print the table below in using LED
 
+![MartialDec](Table.png)
+
 ``` Arduino
 int butA = 13;
 int butB = 12;
@@ -85,9 +87,68 @@ void loop(){
   }
 }
 ```
+This code will convert decimal to binary but through LED
+
+
+![MartialDec](Pic1.jpg)
+![MartialDec](Pic2.jpg)
+
+``` Arduino 
+
+int ALED = 13;
+
+int BLED = 12;
+
+int CLED = 11;
+
+int DLED = 10;
+
+int ELED = 9;
 
 
 
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  
+}
+
+void loop()
+{
+  for (int j = 0; j <= 31; j++){
+    delay(1000);
+    digitalWrite(ALED, LOW);
+    digitalWrite(BLED, LOW);
+    digitalWrite(CLED, LOW);
+    digitalWrite(DLED, LOW);
+    digitalWrite(ELED, LOW);
+    
+    if (j % 2 != 0){
+      digitalWrite(ELED, HIGH);
+    }
+    if (j % 4 > 1) {
+      digitalWrite(DLED, HIGH);
+    }
+    
+    if (j % 8 > 3) {
+      digitalWrite(CLED, HIGH);
+    }
+    if (j % 16 > 7) {
+      digitalWrite(BLED, HIGH);
+    }
+    if (j % 32 > 15) {
+      digitalWrite(ALED, HIGH);
+    }
+      }
+}
+
+
+```
 
 
 Evaluation
