@@ -30,6 +30,61 @@ Design
 Development
 --------
 
+This code will print the table below in using LED
+
+``` Arduino
+int butA = 13;
+int butB = 12;
+int butC = 11;
+int out1 = 3;
+int out2 = 4;
+
+void setup()
+{
+  pinMode(butA, INPUT);
+  pinMode(butB, INPUT);
+  pinMode(butC, INPUT);
+  pinMode(out1, OUTPUT);
+  pinMode(out2, OUTPUT);
+}
+
+void loop(){
+
+  if(digitalRead(butA)== LOW && (butB) == LOW && (butB) == LOW){
+    digitalWrite(out1, HIGH);
+    digitalWrite(out2, HIGH);
+  }
+  
+  if(digitalRead(butA)== LOW && (butB) == LOW && (butB) == HIGH){
+    digitalWrite(out1, HIGH);
+    digitalWrite(out2, HIGH);
+  }
+  if(digitalRead(butA)== LOW && (butB) == HIGH && (butB) == LOW){
+    digitalWrite(out1, HIGH);
+    digitalWrite(out2, LOW);
+  }
+  if(digitalRead(butA) == LOW && (butB) == HIGH && (butB) == HIGH){
+    digitalWrite(out1, HIGH);
+    digitalWrite(out2, LOW);
+  }
+  if(digitalRead(butA) == HIGH && (butB) == LOW && (butB) == LOW){
+    digitalWrite(out1, LOW);
+    digitalWrite(out2, HIGH);
+  }
+  if(digitalRead(butA) == HIGH && (butB) == LOW && (butB) == HIGH){
+    digitalWrite(out1, HIGH);
+    digitalWrite(out2, HIGH);
+  }
+  if(digitalRead(butA) == HIGH && (butB) == HIGH && (butB) == LOW){
+    digitalWrite(out1, HIGH);
+    digitalWrite(out2, HIGH);
+  }
+  if(digitalRead(butA) == HIGH && (butB) == HIGH && (butB) == HIGH){
+    digitalWrite(out1, HIGH);
+    digitalWrite(out2, HIGH);
+  }
+}
+```
 
 
 
