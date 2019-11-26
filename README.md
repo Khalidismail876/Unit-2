@@ -150,7 +150,21 @@ void loop()
 
 ```
 
+### Usibility
+According to Techopedia "Usability is the degree of ease with which products such as software and Web applications can be used to achieve required goals effectively and efficiently."
+### Discoveribility Feedback
+(need to understand more)
+
+
 
 Evaluation
 -----------
 (coming soon )
+
+
+Citation
+-----------
+
+“What Is Usability? - Definition from Techopedia.” Techopedia.com, https://www.techopedia.com/definition/4919/usability.
+
+
