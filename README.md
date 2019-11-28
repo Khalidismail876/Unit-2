@@ -1,4 +1,36 @@
+Feedback Nov 28 (you can delete this section later it will remain in the history)
 
+|No.|How to improve        |
+|-|------------- |
+|①| The definition of the problem needs some work. You described the context very creatively, now invent a ficticious client. Answer the questions: Who is the client? Why is the product being developed? Then you can add at least 5 success criteria that are measurable. 
+|②|Add the proposed solution justifying the choices of software (C) and tools (Arduino). here you can include your homework on comparing BASH and Arduino's C. Also add measurable success criteria.
+|③| Under the development section, you are including all the source code for the programs. It is better if you include only small parts of the code that are new to you or that show an important algorithm. This is because the source code is anyway in the repo so no need to repeat. 
+
+**For example:** The code below shows how to read the status of a button connected to port 13 in the Arduino:
+```.c
+bool A = digitalRead(13);
+```
+Note that the variable A was created of type Bool since the input is binary data.|
+
+|No.|How to improve        |
+|-|------------- |
+|④| Your evidence of progress is limited to one picture without caption or description. Add figure caption to your figures and then explain what you see in them. Figures are quite ambiguous by themselves.| 
+
+**For example:**
+
+<img src="Pic1.jpg" width="50%" height="50%">
+
+
+**Fig. 2.** Circuit used to create a traffic light system with 3 LEDs.
+
+As shown in **Fig. 2**, the circuit used for... which includes... this demonstrates that
+
+|No.|How to improve        |
+|-|------------- |
+|⑤| Keep working on the development section, adding references when you used online sources. I have added the Reference section at the end of this document. Use the references in the text. See example below.| 
+
+
+----
 
 MARTIAN DECODER
 ===========================
@@ -151,7 +183,7 @@ void loop()
 ```
 
 ### Usibility
-According to Techopedia "Usability is the degree of ease with which products such as software and Web applications can be used to achieve required goals effectively and efficiently."
+According to Techopedia [1] "Usability is the degree of ease with which products such as software and Web applications can be used to achieve required goals effectively and efficiently."
 ### Discoveribility Feedback
 (need to understand more)
 
@@ -162,9 +194,9 @@ Evaluation
 (coming soon )
 
 
-Citation
+## Reference
 -----------
 
-“What Is Usability? - Definition from Techopedia.” Techopedia.com, https://www.techopedia.com/definition/4919/usability.
+[1] “What Is Usability? - Definition from Techopedia.” Techopedia.com, https://www.techopedia.com/definition/4919/usability.
 
 
