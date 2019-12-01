@@ -34,3 +34,11 @@ these are the way which the designers need to think when they are making their s
 
 Question :  When is the project for unit 2 due?
 
+### Reflection 3
+We practiced on how to convert binary numbers into both hexadecimal and decimal. We have also 
+went through a doc where we filled our a code that meant to use a metrix system to create 
+communication system. It looks like we are almost done with the binary section and we will start 
+the morse code. I think, classes have been ok so far, I'm just wondering when are we starting to work 
+with the teams that we assigned?
+
+
