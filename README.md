@@ -129,18 +129,58 @@ void loop(){
 ```
 
 
+**Traficlight**
+
+WE created a trafic light using arduino and the figures 2 and 3 shows how it works. The lights will change depending on 
+the timer that is assigned. for example, the red light will be on for 10 seconds and then it will shift to yellow which will be on for 5 seconds and then it will shift to green which will last for 10 seconds, and the vice versa will happen again from green to yellow and from yellow to red. 
+
+![MartialDec](Pic1.jpg)
+
+**Fig. 2.** This figure shows an image of how the code below will turn out
+![MartialDec](Pic2.jpg)
+
+**Fig. 3.** This figure shows an image of how the code below will turn out 
+
+Code for trafic light
+
+``` Arduino
+nt redLight = 13; 
+int yellowLight = 12;
+int greenLight = 11;
+
+void setup() {
+  // the code would only run once
+  pinMode(redLight, OUTPUT);
+  pinMode(yellowLight, OUTPUT);
+  pinMode(greenLight, OUTPUT); 
+}
+
+void loop() {
+  // the code would run repeatedly
+  blinkColor(1000, redLight);
+  blinkColor(500, yellowLight);
+  blinkColor(1000, greenLight);
+}
+
+void blinkColor(int t, int color) {
+  digitalWrite(color, HIGH);
+  delay(t);
+  digitalWrite(color, LOW);
+  delay(t);
+
+```
+
+**Convertion**
 This code will convert decimal to binary but through LED. In figure 2 and 3, it shows how the code below convert 31 into 
 Binary number by using lights. We assigned each light to do something while showing a binary number, the assigned actions 
 are the lights to be off when they are showing 0 and be on while showing 1. An example is number 7, when the lights are showing number 7 in binary number, the first three lights on the right will be on while the two lights on the right will be off, showing a number like this 00111. So When you run the code, the lights will start as all off which is 00000 and then 
 00001 and it will continue showing all decimal numbers from 1 to 31 in binary form using the lights. 
 
+![MartialDec](31dec.png)
 
-![MartialDec](Pic1.jpg)
+**Fig. 4.** This figure shows an image of how to convert 31 decimal to binary
 
-**Fig. 2.** This picture shows an image of how the code below will turn out
-![MartialDec](Pic2.jpg)
-
-**Fig. 3.** This picture shows an image of how the code below will turn out 
+Code for convertion
 
 ``` Arduino 
 
@@ -203,7 +243,7 @@ binary system. We have three buttons and using those three
 buttons we need to turn the right lights to create the number that 
 we want to show.
 
-```
+``` Arduino
 int butA = 13;
 int butB = 12;
 int butC = 11;
@@ -272,7 +312,7 @@ void loop()
 The code below shows the metrix that the astronauts will use to send messages.
 They will need to use two buttons, one for changing characters, and the other 
 one for selecting the character. 
-```
+``` Arduino
 /*This program will print the chosen letters and action through 
 selecting the provided String.*/
 String text = "";
