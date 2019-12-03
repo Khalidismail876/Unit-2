@@ -55,6 +55,11 @@ A company called Mantion decided to send astronauts to moon and Mars but they ar
 ### Proposed Solution
 As we have gathered enough information about the communication system, we decided to come up with a proposed solution. The communication system need to be created with Arduino rather than Bash, to check the reason why REFERT to Comparison between Bash and Arduino. We create a code that runs like a matrix and you use one of the buttons as to change the letters, numbers, SEND, SPACE, and DELETE. The other button, you use it to select the letter, number, SEND, SPACE, or DELETE when you are writing your message. One way we will make this possible is by using Binary system which will allow us to send those messages. Since the only way that the stations could communicate is by using our communication system, what would happen if the communication system fails? This will cause the astronauts to be out of communication and things could turn out not so great for them. So to avoid any communication system fails, We will install a 100W light on every station which they will turn on eveytime they recieve a message from another station. This will prevent the sender to worry if their messages are recieved or not. MORE SOLUTION WILL COME WHEN ALL THE CRITEA IS DELIVERED.
 
+**Evaluation of Arduino and Bash**
+
+Arduino is more simpler than bash. When it comes to coding, arduino seems to be easier and more understandable, while bash is a little bit complicated. One thing that makes Arduino more easeir is that the coding syntax is more relatable to other coding program like C and C++. But Bash has an advantage over Arduino, which is that you can use it anytime you want since its linked in your terminal. If you compare the varibales in Bash and Arduino, it feels like that Arduino's varaibles is a little bit complicated than Bash. When it comes to this communication system, Arduino has the advantage over Bash and the reason lies on 
+the tools that Arduino provides. In arduino, you can find all the tools you need to make a communication system while in Bash you need to do more additional researches and convertions. You can code for arduino while you are checking if the communication system works which makes the programmer have easier time than using Bash. Overall, Arduino is more flexible than Bash when it comes to creating a physical object that is used for communication. 
+
 Design
 ---------
 (coming soon)
@@ -124,7 +129,10 @@ void loop(){
 ```
 
 
-This code will convert decimal to binary but through LED
+This code will convert decimal to binary but through LED. In figure 2 and 3, it shows how the code below convert 31 into 
+Binary number by using lights. We assigned each light to do something while showing a binary number, the assigned actions 
+are the lights to be off when they are showing 0 and be on while showing 1. An example is number 7, when the lights are showing number 7 in binary number, the first three lights on the right will be on while the two lights on the right will be off, showing a number like this 00111. So When you run the code, the lights will start as all off which is 00000 and then 
+00001 and it will continue showing all decimal numbers from 1 to 31 in binary form using the lights. 
 
 
 ![MartialDec](Pic1.jpg)
@@ -314,7 +322,9 @@ of numOption */
 ### Usibility
 According to Techopedia [1] "Usability is the degree of ease with which products such as software and Web applications can be used to achieve required goals effectively and efficiently."
 ### Discoveribility Feedback
-(need to understand more)
+To understand Discoveribility Feedback you need to first understand the words individually and then it will make sense when 
+you combine them together. Discoveribility is the idea of "What do I do", this happens when you encounter a product, system or an object. Understanding what to do with a product or system is a major thing for the developers who want to produce a new
+product into the world, and that is how Discoveribilty is important. Feedback comes when you make your product or create your new system. The developers need to understand what happened to their new product or their new system, and that is when feedback comes. It informs everything that happened to their products and how they need to improve it in the future for their clients. Discoveribility Feedback is the process of coming up with an idea then making it possible through a series of feedback that would improve the product. 
 
 
 
@@ -326,6 +336,8 @@ Evaluation
 ## Reference
 -----------
 
-[1] “What Is Usability? - Definition from Techopedia.” Techopedia.com, https://www.techopedia.com/definition/4919/usability.
+[1] “What Is Usability? - Definition from Techopedia.” Techopedia.com, https://www.techopedia.coum/definition/4919/usability.
+[2] "What is Discoveribility Feeback - Definition from envatotuts+." webdesign.tutsplus.com, https://webdesign.tutsplus.com/articles/discoverability-and-feedback-in-web-design--cms-25487.
+
 
 
