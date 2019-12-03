@@ -1,36 +1,3 @@
-Feedback Nov 28 (you can delete this section later it will remain in the history)
-
-|No.|How to improve        |
-|-|------------- |
-|①| The definition of the problem needs some work. You described the context very creatively, now invent a ficticious client. Answer the questions: Who is the client? Why is the product being developed? Then you can add at least 5 success criteria that are measurable. 
-|②|Add the proposed solution justifying the choices of software (C) and tools (Arduino). here you can include your homework on comparing BASH and Arduino's C. Also add measurable success criteria.
-|③| Under the development section, you are including all the source code for the programs. It is better if you include only small parts of the code that are new to you or that show an important algorithm. This is because the source code is anyway in the repo so no need to repeat. 
-
-**For example:** The code below shows how to read the status of a button connected to port 13 in the Arduino:
-```.c
-bool A = digitalRead(13);
-```
-Note that the variable A was created of type Bool since the input is binary data.|
-
-|No.|How to improve        |
-|-|------------- |
-|④| Your evidence of progress is limited to one picture without caption or description. Add figure caption to your figures and then explain what you see in them. Figures are quite ambiguous by themselves.| 
-
-**For example:**
-
-<img src="Pic1.jpg" width="50%" height="50%">
-
-
-**Fig. 2.** Circuit used to create a traffic light system with 3 LEDs.
-
-As shown in **Fig. 2**, the circuit used for... which includes... this demonstrates that
-
-|No.|How to improve        |
-|-|------------- |
-|⑤| Keep working on the development section, adding references when you used online sources. I have added the Reference section at the end of this document. Use the references in the text. See example below.| 
-
-
-----
 
 MARTIAN DECODER
 ===========================
@@ -69,7 +36,9 @@ Design
 Development
 --------
 
-This code will print the table below in using LED
+This code will print the table below in using LED.
+The table in figure 1 give the user three buttons and also provides them the outputs if you press those buttons. For example, 
+for the first row of the table, it shows that when you don't press any of the buttons, the output 1 and 2 are both 1 1, the outputs remain the same on the second row but this time you pressed button C. The remaing of the rows will follow the patterns.
 
 ![MartialDec](Table.png)
 
@@ -137,6 +106,7 @@ the timer that is assigned. for example, the red light will be on for 10 seconds
 ![MartialDec](Pic1.jpg)
 
 **Fig. 2.** This figure shows an image of how the code below will turn out
+
 ![MartialDec](Pic2.jpg)
 
 **Fig. 3.** This figure shows an image of how the code below will turn out 
@@ -171,6 +141,7 @@ void blinkColor(int t, int color) {
 ```
 
 **Convertion**
+
 This code will convert decimal to binary but through LED. In figure 2 and 3, it shows how the code below convert 31 into 
 Binary number by using lights. We assigned each light to do something while showing a binary number, the assigned actions 
 are the lights to be off when they are showing 0 and be on while showing 1. An example is number 7, when the lights are showing number 7 in binary number, the first three lights on the right will be on while the two lights on the right will be off, showing a number like this 00111. So When you run the code, the lights will start as all off which is 00000 and then 
