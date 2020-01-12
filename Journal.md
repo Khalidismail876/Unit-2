@@ -42,3 +42,21 @@ the morse code. I think, classes have been ok so far, I'm just wondering when ar
 with the teams that we assigned?
 
 
+### Reflection 4
+We have been coding for arduino in order to finish the communication project. We have divided each other 
+into different teams and for each team we dicided to plan what our processs is going to be. We have spent 
+the entire class planning for the sets of the project. Now we finished setting all our plans, we are going to 
+start coding for it. 
+Question: how long do we have to finish the project?
+
+### Reflection 5
+Today we spend the entire day coding the project and it looks like we made some progress to finishing it. We 
+have communicated with the other members in the class to see where their progress is going and its going pretty 
+smooth with them as they stated. Now; we just need to keep coding and finish it before the deadline.
+
+### Reflection 6
+since we came back from the break, we thought that we will be working on the project but today's class we have started 
+doing a new language. This language is called C programming, and it looks a bit easier than the other two languages 
+that we learned before. I like all the feedbacks I get when I make a mistake and fixing it the mistakes are pretty simple.
+Question: are we going to have more time doing the arduino in class?
+
