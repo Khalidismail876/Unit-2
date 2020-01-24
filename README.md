@@ -27,6 +27,18 @@ As we have gathered enough information about the communication system, we decide
 Arduino is more simpler than bash. When it comes to coding, arduino seems to be easier and more understandable, while bash is a little bit complicated. One thing that makes Arduino more easeir is that the coding syntax is more relatable to other coding program like C and C++. But Bash has an advantage over Arduino, which is that you can use it anytime you want since its linked in your terminal. If you compare the varibales in Bash and Arduino, it feels like that Arduino's varaibles is a little bit complicated than Bash. When it comes to this communication system, Arduino has the advantage over Bash and the reason lies on 
 the tools that Arduino provides. In arduino, you can find all the tools you need to make a communication system while in Bash you need to do more additional researches and convertions. You can code for arduino while you are checking if the communication system works which makes the programmer have easier time than using Bash. Overall, Arduino is more flexible than Bash when it comes to creating a physical object that is used for communication. 
 
+### Success Criteria
+
+These are the outcomes that we need to measure to see if the program fullfill the needs of the users
+
+1. Arduino uno is created for the Communication system
+2. There is a program that sends English to Morse
+3. There is a program that converts Morse to English
+4. A program that converts code English to Binary 
+5. There is another program that decodes Binary to English
+6. All the communication is smooth and there is no errors
+7. The communication is simple and it doesn't require any additional knowledge
+
 Design
 ---------
 ### The system Diagram that we are creating will be set like figure 1.
@@ -73,6 +85,10 @@ Design
 ![MartialDec](eng-bin.jpg)
 
 **Fig. 6.** English to Binary
+
+
+### Test Plan
+
 
 
 Development
