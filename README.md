@@ -730,6 +730,12 @@ void dash(){
 }
 ```
 
+![MartialDec](En-mor1.png)
+![MartialDec](En-mor2.png)
+![MartialDec](En-mor3.png)
+
+**Fig. 11 - 13.** English to Morse pics
+
 
 ### Morse to English
 
@@ -1005,7 +1011,7 @@ void send()
 ![MartialDec](mor-en2.png)
 ![MartialDec](mor-en3.png)
 
-**Fig. 14 - 16.** Morse to English
+**Fig. 14 - 16.** Morse to English pics
 
 
 
