@@ -29,8 +29,18 @@ the tools that Arduino provides. In arduino, you can find all the tools you need
 
 Design
 ---------
-(coming soon)
-![MartialDec](Two buttons.jpeg)
+### The system Diagram that we are creating will be set like figure 1.
+
+![MartialDec](Twobuttons1.jpg)
+
+**Fig. 1.** SYSTEM DIAGRAM 
+
+
+### The flowchart in Figure 2 will show how the Code English to Morse works. 
+
+![MartialDec](Twobuttons1.jpg)
+
+
 
 
 Development
