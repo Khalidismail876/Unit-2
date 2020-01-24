@@ -37,6 +37,8 @@ Design
 
 
 
+
+
 ### The flowchart in Figure 2 will show how the Code that converts English to Morse works. 
 
 ![MartialDec](page1.jpg)
@@ -45,11 +47,18 @@ Design
 **Fig. 2.** English to Morse
 
 
+
+
+
 ### The Flowchart in figure 3 will show how the Code that converts Morse to English works.
 
 ![MartialDec](FCbinToEng.jpg)
 
 **Fig. 3.** English to Morse
+
+
+
+
 
 Development
 --------
