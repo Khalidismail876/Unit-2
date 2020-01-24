@@ -36,12 +36,20 @@ Design
 **Fig. 1.** SYSTEM DIAGRAM 
 
 
-### The flowchart in Figure 2 will show how the Code English to Morse works. 
 
-![MartialDec](Twobuttons1.jpg)
+### The flowchart in Figure 2 will show how the Code that converts English to Morse works. 
+
+![MartialDec](page1.jpg)
+![MartialDec](page2.jpg)
+
+**Fig. 2.** English to Morse
 
 
+### The Flowchart in figure 3 will show how the Code that converts Morse to English works.
 
+![MartialDec](FCbinToEng.jpg)
+
+**Fig. 3.** English to Morse
 
 Development
 --------
