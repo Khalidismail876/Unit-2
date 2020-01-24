@@ -17,10 +17,15 @@ Contents
 
 The year is 2050 and many people want to explore different planets, but one problem that they are facing is they can't communicate with other planets. This is happening due to lack of developing advance communicating tools. We are assigned to make a communicating tool that connect Earth, Moon, and Mars. Since its hard to transfer all the data from Earth to Mars, we made moon be the mediator of Earth and Mars. The people in Mars wanted all their communicaton system as Binary Code and for people in the moon to transfer the informaion from Earth to Binary Code they require the communication system from eath be Morse Code. The reverse has to happen to, Mars people will send binary Code to moon and moon peoeple will convert binary code to Morse code. 
 
-A company called Mantion decided to send astronauts to moon and Mars but they are lucking one important componant to make their trip possible. This componant is communication, for the company to communicate with their astronauts and record all their discoveries and help them with their need, they strongly require a communication system. The owner of the Mantion seeked for communication developers and here he found us. After we had a little interview with him, we gathered that the communication system that he requires has to be developed in a way that his astronauts don't have to struggle learning it. This means that the communication system need to be simple. Another thing that we gathered after talking to him is that his communication system need to have only two buttons to limit number of buttons they will use. HE STATED THAT MORE INFORMATION ABOUT THE CRITERIA OF THE COMMUNICATION SYSTEM WILL ARRIVE. 
+A company called Mantion decided to send astronauts to moon and Mars but they are lucking one important componant to make their trip possible. This componant is communication, for the company to communicate with their astronauts and record all their discoveries and help them with their need, they strongly require a communication system. The owner of the Mantion seeked for communication developers and here he found us. After we had a little interview with him, we gathered that the communication system that he requires has to be developed in a way that his astronauts don't have to struggle learning it. This means that the communication system need to be simple. Another thing that we gathered after talking to him is that his communication system need to have only two buttons to limit number of buttons they will use. 
 
 ### Proposed Solution
-As we have gathered enough information about the communication system, we decided to come up with a proposed solution. The communication system need to be created with Arduino rather than Bash, to check the reason why REFERT to Comparison between Bash and Arduino. We create a code that runs like a matrix and you use one of the buttons as to change the letters, numbers, SEND, SPACE, and DELETE. The other button, you use it to select the letter, number, SEND, SPACE, or DELETE when you are writing your message. One way we will make this possible is by using Binary system which will allow us to send those messages. Since the only way that the stations could communicate is by using our communication system, what would happen if the communication system fails? This will cause the astronauts to be out of communication and things could turn out not so great for them. So to avoid any communication system fails, We will install a 100W light on every station which they will turn on eveytime they recieve a message from another station. This will prevent the sender to worry if their messages are recieved or not. MORE SOLUTION WILL COME WHEN ALL THE CRITEA IS DELIVERED.
+
+As we have gathered enough information about the communication system, we decided to come up with a proposed solution. The communication system need to be created with Arduino rather than Bash, to check the reason why REFERT to Comparison between Bash and Arduino. We create a code that runs like a matrix and you use one of the buttons as to change the letters, numbers, SEND, SPACE, and DELETE. The other button, you use it to select the letter, number, SEND, SPACE, or DELETE when you are writing your message. One way we will make this possible is by using Binary system, and Morse code which will allow us to send those messages. Since the only way that the stations could communicate is by using our communication system, what would happen if the communication system fails? This will cause the astronauts to be out of communication and things could turn out not so great for them. So to avoid any communication system fails, We will install a 100W light on every station which they will turn on eveytime they recieve a message from another station. This will prevent the sender to worry if their messages are recieved or not. 
+
+We will install LCD display that shows the astronauts who are using all the letter that are in the programe. This display will also help the astronauts to see if their message is send by recieving a message saying "MESSAGE SENT". For the stations in Earth and Moon, they will use one light Bulb to show the morse code message while Mars and Moon stations have two light Bulb that show the Binary Code message. Moon station will have a multiple programs since it's between Earth and Mars. This station will recieve and send both Binary and Morse. 
+
+
 
 **Evaluation of Arduino and Bash**
 
@@ -89,7 +94,9 @@ Design
 
 ### Test Plan
 
+![MartialDec](testplan.png)
 
+**Fig. 7.** Test Plan chart
 
 Development
 --------
@@ -100,7 +107,7 @@ for the first row of the table, it shows that when you don't press any of the bu
 
 ![MartialDec](Table.png)
 
-**Fig. 7.** Table which shows which lights are on are which ones are off
+**Fig. 8.** Table which shows which lights are on are which ones are off
 ``` Arduino
 int butA = 13;
 int butB = 12;
@@ -163,11 +170,11 @@ the timer that is assigned. for example, the red light will be on for 10 seconds
 
 ![MartialDec](Pic1.jpg)
 
-**Fig. 8.** This figure shows an image of how the code below will turn out
+**Fig. 9.** This figure shows an image of how the code below will turn out
 
 ![MartialDec](Pic2.jpg)
 
-**Fig. 9.** This figure shows an image of how the code below will turn out 
+**Fig. 10.** This figure shows an image of how the code below will turn out 
 
 Code for trafic light
 
@@ -207,7 +214,7 @@ are the lights to be off when they are showing 0 and be on while showing 1. An e
 
 ![MartialDec](31dec.png)
 
-**Fig. 10.** This figure shows an image of how to convert 31 decimal to binary
+**Fig. 11.** This figure shows an image of how to convert 31 decimal to binary
 
 Code for convertion
 
@@ -752,7 +759,7 @@ void dash(){
 ![MartialDec](En-mor2.png)
 ![MartialDec](En-mor3.png)
 
-**Fig. 11 - 13.** English to Morse pics
+**Fig. 12 - 14.** English to Morse pics
 
 
 ### Morse to English
@@ -1031,7 +1038,7 @@ void send()
 ![MartialDec](mor-en2.png)
 ![MartialDec](mor-en3.png)
 
-**Fig. 14 - 16.** Morse to English pics
+**Fig. 15 - 17.** Morse to English pics
 
 
 
@@ -2235,7 +2242,56 @@ void storeChar(String character) {
 ![MartialDec](mor-en2.png)
 ![MartialDec](mor-en3.png)
 
-**Fig. 17 - 19.** Binary to English pics
+**Fig. 18 - 20.** Binary to English pics
+
+
+### TOOLS USED IN THIS PROGRAM.
+
+1. C Language - this is the language used to code all the program 
+2. Arduino Platform - this platform made it possible to convert our code to running programs
+3. Functions - Used these function to reduce all the repeated lines
+4. Data Encoding - This help us to code for the program 
+5. GitHub - This place is where we kept all our documentations. 
+
+
+Evaluation
+-----------
+
+### Overview of the Program
+
+Eventhough the program works and gives the users the ability to communicate in space, this program is far from being perfect. This is just the begining for this program, it will require a lot of update and those update will be based on the feedback that we get from our clients. This program was created due to a collaporation between a lot of coders and those coders each justified why they made some of the decision that they took. 
+
+### Improvements
+
+One of the main things that need to be improved is the code that the program runs with. All the codes that this program is running with is considered to be WET, the reason why some coders have done this is due to lack of time. Making all the codes short and DRY is one of the main things that this program requires.
+
+The second improvement that this program requires is the tools that we used. Most of the tools such as the wires, LCD, and buttons are not perfectly as we intended it to be. By improving all these tools, we will make the interaction between the users and program smoother. 
+
+The last Improvement that we need to make for this program is to fix all the small errors that we have. First error being to have an easy way of selecting letters and erasing them. Eventhough it works as we intended it to work but improving those functions to be a bit smoother is something that will be worked on. 
+
+### FUTURE UPDATES
+
+1. The first update that we will have will be all about improving the codes, and the usibility of the program. This will help our client to have a better experience and smoother communication.
+
+2. The second update that we will try to do is implant more lights for Binary program so that the users could have easy time reading the Binary code. 
+
+3. Implanting a better display is also our third update, this display will provide more visual sustainibility while the users are typing. 
+
+4. Our forth update will contain more characters to be send such as signs and other letters from other languages
+
+5. All the other upcoming updates will try to fullfill the need that the users want to have in this communicaiton system. 
+
+
+### Crew (The coders that help on this program)
+
+Alex - The designer of Binary to English code and Flowchart
+Nomso - Worked with Khalid in creating the English to Morse code
+Khalid - Worked with Nomso in creating the english to Morse code / also the creater of the English to Morse flowchart.
+Irvin - Worked with Lydia in creating the Morse to English code
+Hassan - Worked with Hassan in creating the English to Binary code 
+Kalven - Worked with Hassan in creating the English to Binary code /  also the creator of the English to Binary Flowchart
+Lydia - Worked with Irving in creating the Morse to English code / also the creator of the Morse to English Flowchart
+
 
 ### Usibility
 According to Techopedia [1] "Usability is the degree of ease with which products such as software and Web applications can be used to achieve required goals effectively and efficiently."
@@ -2243,12 +2299,6 @@ According to Techopedia [1] "Usability is the degree of ease with which products
 To understand Discoveribility Feedback you need to first understand the words individually and then it will make sense when 
 you combine them together. Discoveribility is the idea of "What do I do", this happens when you encounter a product, system or an object. Understanding what to do with a product or system is a major thing for the developers who want to produce a new
 product into the world, and that is how Discoveribilty is important. Feedback comes when you make your product or create your new system. The developers need to understand what happened to their new product or their new system, and that is when feedback comes. It informs everything that happened to their products and how they need to improve it in the future for their clients. Discoveribility Feedback is the process of coming up with an idea then making it possible through a series of feedback that would improve the product. 
-
-
-
-Evaluation
------------
-(coming soon )
 
 
 ## Reference
