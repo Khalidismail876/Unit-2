@@ -52,12 +52,27 @@ Design
 
 ### The Flowchart in figure 3 will show how the Code that converts Morse to English works.
 
-![MartialDec](FCbinToEng.jpg)
+![MartialDec](mortoeng.png)
 
 **Fig. 3.** English to Morse
 
 
 
+
+### The Flowchart in figure 3 will show how the Code that converts Binary to English works.
+
+![MartialDec](FCbinToEng.jpg)
+
+**Fig. 4.** Binary to English
+
+
+
+
+### The Flowchart in figure 3 will show how the Code that converts English to Morse works.
+
+![MartialDec](eng-bin.jpg)
+
+**Fig. 5.** English to Binary
 
 
 Development
