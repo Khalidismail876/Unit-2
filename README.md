@@ -730,6 +730,8 @@ void dash(){
 }
 ```
 
+***The picture in figure 11 to 13 will domenstrate the code shown above and it's usibility. 
+
 ![MartialDec](En-mor1.png)
 ![MartialDec](En-mor2.png)
 ![MartialDec](En-mor3.png)
@@ -1006,6 +1008,8 @@ void send()
 
 ```
 
+
+***The picture in figure 14 to 16 will domenstrate the code shown above and it's usibility. 
 
 ![MartialDec](mor-en1.png)
 ![MartialDec](mor-en2.png)
@@ -2207,9 +2211,15 @@ void storeChar(String character) {
   }
 }
  
-
-
 ```
+
+***The picture in figure 17 to 19 will domenstrate the code shown above and it's usibility. 
+
+![MartialDec](mor-en1.png)
+![MartialDec](mor-en2.png)
+![MartialDec](mor-en3.png)
+
+**Fig. 17 - 19.** Binary to English pics
 
 ### Usibility
 According to Techopedia [1] "Usability is the degree of ease with which products such as software and Web applications can be used to achieve required goals effectively and efficiently."
