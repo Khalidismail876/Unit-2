@@ -44,7 +44,7 @@ Design
 ![MartialDec](page1.jpg)
 ![MartialDec](page2.jpg)
 
-**Fig. 2.** English to Morse
+**Fig. 2 - 3.** English to Morse
 
 
 
@@ -54,7 +54,7 @@ Design
 
 ![MartialDec](mortoeng.png)
 
-**Fig. 3.** English to Morse
+**Fig. 4.** English to Morse
 
 
 
@@ -63,7 +63,7 @@ Design
 
 ![MartialDec](FCbinToEng.jpg)
 
-**Fig. 4.** Binary to English
+**Fig. 5.** Binary to English
 
 
 
@@ -72,7 +72,7 @@ Design
 
 ![MartialDec](eng-bin.jpg)
 
-**Fig. 5.** English to Binary
+**Fig. 6.** English to Binary
 
 
 Development
@@ -84,7 +84,7 @@ for the first row of the table, it shows that when you don't press any of the bu
 
 ![MartialDec](Table.png)
 
-**Fig. 6.** Table which shows which lights are on are which ones are off
+**Fig. 7.** Table which shows which lights are on are which ones are off
 ``` Arduino
 int butA = 13;
 int butB = 12;
@@ -147,11 +147,11 @@ the timer that is assigned. for example, the red light will be on for 10 seconds
 
 ![MartialDec](Pic1.jpg)
 
-**Fig. 7.** This figure shows an image of how the code below will turn out
+**Fig. 8.** This figure shows an image of how the code below will turn out
 
 ![MartialDec](Pic2.jpg)
 
-**Fig. 8.** This figure shows an image of how the code below will turn out 
+**Fig. 9.** This figure shows an image of how the code below will turn out 
 
 Code for trafic light
 
@@ -191,7 +191,7 @@ are the lights to be off when they are showing 0 and be on while showing 1. An e
 
 ![MartialDec](31dec.png)
 
-**Fig. 9.** This figure shows an image of how to convert 31 decimal to binary
+**Fig. 10.** This figure shows an image of how to convert 31 decimal to binary
 
 Code for convertion
 
@@ -999,6 +999,15 @@ void send()
 
 
 ```
+
+
+![MartialDec](mor-en1.png)
+![MartialDec](mor-en2.png)
+![MartialDec](mor-en3.png)
+
+**Fig. 14 - 16.** Morse to English
+
+
 
 
 ### English to Binary
